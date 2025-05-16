@@ -62,6 +62,7 @@ Attributes
   - Relatively older customer base => The business should choose appropriate messages, products
 
 ### Accepted Campaigns (Pie Chart)
+![](images/marketing_2.png)
 - Insights:
   - Campaign 2 was clearly a failure, with significantly lower adoption rates (only **4.5%**, **30**)
   - Campaign 3,4 and 5 performed similarly and really well (over **24%**)
@@ -69,7 +70,8 @@ Attributes
   - Using A/B Testing for Campaign 2 content with 2 versions: 1 version that re-uses the message from Campaign 3 (which is performing well), 1 version that adjusts the current content (e.g changes the offer, language, delivery channel...) => **Objective**: Evaluate whether ppor performance is due to content or timing/channel.
   - For Campaign 3,4 and 5, group of customers who accepted these campaigns, analyze common characteristics: age, income, marital status, number of purchases... From there, build effective target customer portraits for the following campaigns. Re-use content from these campaigns for customer groups with similar features => **Objective**: Increase ROI by targeting more precisely, leveraging proven effective content.
 
-### Income and Spending by Year, Month and Day (Scatter Plot)
+### Income and Spending by Customer (Scatter Plot)
+![](images/marketing_3.png)
 - Insights:
   - Positive correlation between Income and Spending, when income increases, spending also increases.
   - Most customers are in the 100K–400K income group, spending under 6K.
