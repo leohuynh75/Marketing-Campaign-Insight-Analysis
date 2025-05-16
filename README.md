@@ -49,6 +49,7 @@ Attributes
 
 ## 3. Insights & Actionable Insights
 ### Overall (Cards)
+![](images/marketing_1.png)
 - Total Spending: **1 Million**
   - Total spending of all customers in last 2 years
   - Significant spend => it is promising for further optimization or expansion
