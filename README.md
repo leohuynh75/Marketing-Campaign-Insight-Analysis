@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 The Marketing Campaign Insight Analysis Dashboard, built in Power BI using data from marketing_campaign.csv file, provides a clear, centralized view of campaign results. This dashboard helps business what works, make smarter marketing decisions and boost their marketing ROI.
-## 2. Data description
+## 2. Data Description
 Before analyzing, please read the data description below:
 
 Attributes
@@ -73,14 +73,53 @@ Attributes
 ### Income and Spending by Customer (Scatter Plot)
 ![](images/marketing_3.png)
 - Insights:
-  - Positive correlation between Income and Spending, when income increases, spending also increases.
-  - Most customers are in the 100K–400K income group, spending under 6K.
-  - Some customers have high income but low spending → have not fully exploited their potential.
-  - There are customers who spend unusually high despite not having a very high income → a potential heavy spender group.
+  - The data distribution is scattered, not showing a clear linear relationship.
+  - There are many low-income customers but high consumption => Opposite to expectations.
+  - Some customers have high income but spend very little => Potential to stimulate spending.
+  - The middle-income group (~50K–100K) is the group with the most stable spending level.
+    
+  => It is impossible to conclude that "Income increases, Spending increases", because each customer has different consumer behavior, not following a general trend.
 - Actionable Insights:
-  - Focus the campaign on the 200K–400K income group: large, spends quite a bit → easy to convert.
-  - Design special offers for the high income but low spending group: stimulate demand with VIP services, premium offers.
-  - Retain the unusually high spending group with loyalty points and promotions.
-  - Segment by demographic characteristics (gender, education, marriage...) to deeply understand spending behavior by each segment.
+  - Customer segmentation:
+    - Low income - high spending group may be loyal customers or have strong needs => Should be prioritized for care.
+    - High income - low spending group is untapped potential => Need appropriate promotion and upsell campaigns.
+  - Deep Analysis: Add analysis by age, product type, region… to better understand why there is this difference in behavior.
+    
+### Income and Spending by Year and Quarter (Line and Column Chart)
+![](images/marketing_4.png)
+- Insights:
+  - Income and Spending increased sharply in 2013 and early 2014, then decreased.
+  - Spending peaked in Q3 2013 and Q4 2013.
+- Actionable Insights:
+  - Recreate campaigns/sales processes similar to 2013–2014.
+  - Investigate reasons for decline after 2014 (outdated campaigns or saturated market).
 
-### 
+### Purchases (Pie Chart)
+![](images/marketing_5.png)
+- Insights:
+  - Web Purchase accounts for the highest proportion => Strong online trend.
+  - Low store => Less customers come to the store.
+- Actionable Insights:
+  - Invest in online marketing, website promotion.
+  - Re-evaluate sales strategy at physical stores.
+ 
+### Spending by Education (Stack Column Chart)
+![](images/marketing_6.png)
+- Insights:
+  - Customers with Bachelor's & PhD degrees spend more.
+  - "Basic" and "2nd Cycle" groups spend very little.
+- Actionable Insights:
+  - Target highly educated customers with premium products and more in-depth content.
+  - Basic groups => Create incentive programs to increase engagement.
+
+### Complain by Year and Quarter (Column Chart)
+![](images/marketing_7.png)
+- Insights:
+  - Combining the Line & Column Chart above, when Spending increased (2013), complaints also increased (especially Q1 and Q3 2013).
+  - But complaints decreased sharply after Q4 2013, this is also the time when Spending started to trend down.
+- Actionable Insights:
+  - There are 2 reasons for the decrease in complaints since the beginning of 2014, which are:
+    - If the service has been improved after 2014, re-apply that process to new campaigns.
+    - If the decrease in complaints is due to a decrease in customers, it is necessary to re-evaluate the loyal customer experience.
+
+
